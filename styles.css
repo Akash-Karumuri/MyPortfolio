@@ -4,11 +4,12 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
-.flexleft{
+.flexcenter{
     display: flex;
     align-items: center;
-    justify-content:left;
+    justify-content: center;
 }
 body {
     background-color: #121212;
@@ -38,10 +39,12 @@ a:hover {
 .navbar .navbar-brand {
     color: #f5f5f5;
     font-weight: bold;
+    font-size: clamp(1.2rem, 2vw, 2rem);
 }
 
 .navbar .navbar-nav .nav-link {
     color: #f5f5f5 !important;
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
 }
 
 .navbar .navbar-nav .nav-link:hover {
@@ -59,12 +62,14 @@ a:hover {
     color: #ff9800;
     font-size: 3rem;
     margin-bottom: 20px;
+    font-size: clamp(2rem, 6vw, 3rem);
 }
 
 .hero p {
     font-size: 1.5rem;
     color: #f5f5f5;
     margin-bottom: 30px;
+    font-size: clamp(1rem, 3vw, 1.5rem); 
 }
 
 /* About Section Styles */
@@ -77,12 +82,14 @@ a:hover {
     color: #ff9800;
     font-size: 2.5rem;
     margin-bottom: 20px;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
 }
 
 #about p {
     font-size: 1.2rem;
     color: #f5f5f5;
     line-height: 1.8;
+    font-size: clamp(1rem, 3vw, 1.2rem);
 }
 
 /* Skills Section Styles */
@@ -95,12 +102,14 @@ a:hover {
     color: #ff9800;
     font-size: 2.5rem;
     margin-bottom: 30px;
+    font-size: clamp(1.8rem, 5vw, 2.5rem); 
 }
 
 #skills ul li {
     font-size: 1.2rem;
     color: #f5f5f5 !important;
     margin-bottom: 15px;
+    font-size: clamp(1rem, 3vw, 1.2rem);
 }
 
 /* Projects Section Styles */
@@ -113,6 +122,7 @@ a:hover {
     color: #ff9800;
     font-size: 2.5rem;
     margin-bottom: 30px;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
 }
 
 .card {
@@ -128,10 +138,12 @@ a:hover {
 .card-title {
     color: #ff9800;
     font-size: 1.5rem;
+    font-size: clamp(1.2rem, 4vw, 1.5rem);
 }
 
 .card-text {
     font-size: 1rem;
+    font-size: clamp(0.9rem, 3vw, 1rem);
 }
 .card-body i{
     cursor: pointer;
@@ -146,6 +158,7 @@ a:hover {
     color: #ff9800;
     font-size: 2.5rem;
     margin-bottom: 30px;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
 }
 
 /* Contact Section Styles */
@@ -200,11 +213,13 @@ a:hover {
 .contact-container h2 {
     font-size: 2.5rem;
     color:#ff9800;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
 }
 .contact-container p {
     font-size: 1.2rem;
     color: #cccccc;
     margin-bottom: 20px;
+    font-size: clamp(1rem, 3vw, 1.2rem);
 }
 .contact-links {
     display: flex;
@@ -219,6 +234,7 @@ a:hover {
     font-size: 1rem;
     font-weight: bold;
     transition: 0.3s;
+    font-size: clamp(1rem, 3vw, 1.2rem);
 }
 .email {
     background-color: #333;
@@ -245,6 +261,7 @@ a:hover {
     padding: 20px 0;
     text-align: center;
     font-size: 1rem;
+    font-size: clamp(0.9rem, 3vw, 1rem); 
 }
 
 .footer p {
@@ -254,9 +271,11 @@ a:hover {
 @media (max-width: 767px) {
     .hero h1 {
         font-size: 2.5rem;
+        font-size: clamp(2rem, 6vw, 2.5rem);
     }
     
     .hero p {
         font-size: 1.2rem;
+        font-size: clamp(1rem, 4vw, 1.2rem);
     }
 }
