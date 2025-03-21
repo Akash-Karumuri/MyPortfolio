@@ -27,13 +27,20 @@ a {
 a:hover {
     color: #e68900;
 }
-
+.hero-sec a{
+    border:1px solid white;
+    color:white;
+}
+.hero-sec a:hover{
+    background-color: #ff9800;
+    color: white;
+}
 /* Navbar Styles */
 .navbar {
     background-color: #1f1f1f;
     width: 100%;
     z-index: 1000;
-    box-shadow: 5px 5px 10px white;
+    box-shadow: 2px 2px 8px white;
 }
 
 .navbar .navbar-brand {
@@ -77,7 +84,6 @@ a:hover {
     background-color: #1f1f1f; /* Dark background for About */
     padding: 50px 0;
 }
-
 #about h2 {
     color: #ff9800;
     font-size: 2.5rem;
@@ -117,7 +123,12 @@ a:hover {
     padding: 50px 0;
     background-color: #1f1f1f;
 }
-
+#projects a{
+    color: white;
+}
+#projects a:hover{
+    color: #ff9800;
+}
 #projects h2 {
     color: #ff9800;
     font-size: 2.5rem;
@@ -159,6 +170,9 @@ a:hover {
     font-size: 2.5rem;
     margin-bottom: 30px;
     font-size: clamp(1.8rem, 5vw, 2.5rem);
+}
+#education .card{
+    height: 180px;
 }
 
 /* Contact Section Styles */
