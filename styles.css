@@ -44,9 +44,11 @@ a:hover {
 }
 
 .navbar .navbar-brand {
-    color: #f5f5f5;
+    color:white;
     font-weight: bold;
     font-size: clamp(1.2rem, 2vw, 2rem);
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 2px 2px #ff9800;
 }
 
 .navbar .navbar-nav .nav-link {
