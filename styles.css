@@ -47,10 +47,20 @@ a:hover {
     color:white;
     font-weight: bold;
     font-size: clamp(1.2rem, 2vw, 2rem);
-    font-family:'Times New Roman', Times, serif;
-    text-shadow: 2px 2px #ff9800;
+    
 }
-
+.navbar .navbar-brand img{
+    height: 40px;
+}
+.name{
+    color: #ff9800;
+}
+.oleo-script-swash-caps-bold {
+    font-family: "Oleo Script Swash Caps", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+  
 .navbar .navbar-nav .nav-link {
     color: #f5f5f5 !important;
     font-size: clamp(1rem, 1.5vw, 1.2rem);
