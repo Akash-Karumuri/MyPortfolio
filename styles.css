@@ -31,6 +31,10 @@ a:hover {
     border:1px solid white;
     color:white;
 }
+.hero-sec img{
+    height: 65%;
+    width: 65%;
+}
 .hero-sec a:hover{
     background-color: #ff9800;
     color: white;
